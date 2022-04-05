@@ -1,0 +1,7 @@
+SELECT Nom FROM Heros
+ORDER BY Nom;
+
+SELECT * FROM Heros
+WHERE PV = 40;
+
+SELECT COUNT (*) FROM Heros;
