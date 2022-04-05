@@ -1,0 +1,54 @@
+Vacances:
+
+1: la location d'un appartement de vacances.
+
+2: le tarif, l'appartement, le proprio, le locataire et le contrat.
+
+3: le tarif correspond à 1 ou plusieurs appartements et l'appartement ne possède qu'un seul tarif.
+
+- l'appartement n'a qu'un seul propriétaire et 
+le propriétaire possède 1 ou plusieurs appartements.
+
+- le locataire peut ne posséder aucun contrat comme plusieurs, et le contrat est lié à toujours 1 personne.
+
+- l'appartement peut ne contenir aucun contrat comme plusieurs, et
+le contrat est toujours lié à un appartement.
+
+4: Créer une table Adresse
+
+
+Formatage:
+
+1: Une classe d'école, d'élèves et de devoirs.
+
+2: Elève(réf), classe(réf), Devoir
+
+3: L'elève ne peut être inscrit qu'une seul fois,
+La classe peut n'avoir aucun élève mais peut en 	  avoir plusieurs.
+
+- Aucun élève ne peut être référencé, tout comme il peut il y en avoir plusieurs.
+idem pour la référence de classe.
+
+- La référence ne correspond qu'à une seul classe élève.
+
+- Le devoir s'il existe va forcèment concerner quelque chose.
+
+- Le devoir peut ne concerner aucune classe élève,
+comme plusieurs.
+
+Médecine: 
+
+1: Infos sur un joueur de golf.
+
+2: les infos sur le golfeur et sa partie de golf.
+
+3: aucun ou plusieurs golfeurs peuvent participer.
+
+- Le participant peut faire 0 partie comme plusieurs.
+
+- une partie si elle existe à forcèment lieu sur.
+
+-
+
+4: Le score peut avoir aucun participant (score inexistant),
+tout comme plusieurs participants.
